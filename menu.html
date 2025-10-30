@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="ROMAISSY">
+    <meta name="description" content="Food Website Demo full responsive website (Front-End)">
+    <meta name="keywords"
+        content="food menu hungry fried chicken tinders meal wings prost kebab meat sandwich tacos pizza burger noodles chinese japanese  ">
+    <title>Original</title>
+
+    <!-- link -->
+    <link rel="icon" href="img/icon-9417083.png">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="remixicon.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Style -->
+    <Style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+    </Style>
+
+</head>
+
+<body class="bg-black">
+    <!-- Header -->
+    <header>
+        <div>
+            <!-- NavBar -->
+            <nav class="navbar navbar-expand-lg bg-black shadow fixed-top py-0 ">
+                <div class="container  text-light">
+                    <div>
+                        <a class="navbar-brand link-warning fs-1 fw-bolder link-opacity-75-hover" href="/">ORIGINAL</a>
+
+                    </div>
+                    <div>
+                        <button class="navbar-toggler  text-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse text-light " id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item  text-light">
+                                    <a class="nav-link active link-light link-opacity-25-hover" aria-current="page"
+                                        href="menu.html">Menu</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link link-light link-opacity-25-hover" href="index.html#offers">Offers</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle link-light link-opacity-25-hover" href="#"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu bg-black">
+                                        <li><a class="dropdown-item text-light link-dark " href="#">Your Cart</a></li>
+                                        <li><a class="dropdown-item text-light link-dark" href="#">Track Order</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item text-light link-dark " href="#">Promo Codes</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- NavBar END -->
+
+            <!-- Hero Carousel -->
+
+            <div id="carouselExampleCaptions" class="carousel slide position-relative">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1 style=" font-size: 60px; letter-spacing: 24px;"
+                            class="w-100 mb-5 text-center fw-bolder text-light position-absolute top-50 start-50 translate-middle opacity-50 d-none d-md-block">
+                            THE ORIGINAL TASTE
+                        </h1>
+                        <img src="img/Hero-percision-blog-header-junk-food-102323.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption">
+                            <h2 class="fs-1 d-block d-md-none opacity-50">THE ORIGINAL TASTE</h2>
+                            <p class="d-none d-md-block mt-5">Some representative placeholder content for the first
+                                slide.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Carousel END -->
+
+    </header>
+    <!-- Header END -->
+
+    <!-- Main -->
+    <main>
+        <!-- Choieces ROW  -->
+        <div class="bg-black position-sticky d-none d-sm-block z-2" style="top: 60px;">
+            <hr class="text-secondary">
+            <div class="choices container d-flex flex-wrap justify-content-around">
+                <a href="#burger">
+                    <img src="img/Burger-da0de78-jumbo.jpg" class="rounded-5 mb-1 mx-3" width="90" height="60"
+                        alt="Burger" title="Burger"></a>
+                <a href="#friedChicken">
+                    <img src="img/Fried-Chicken.jpg" class="rounded-5 mb-1 mx-3" width="90" height="60"
+                        alt="Fried-Chciken" title="Fried Chicken"></a>
+
+                <a href="#pizza">
+                    <img src="img/Pizza-049623668c15b2e.jpg" class="rounded-5 mb-1 mx-3" width="90" height="60"
+                        alt="Pizza" title="Pizza"></a>
+                <a href="#kebab">
+                    <img src="img/Kebab-shish-kebab-20.jpg" class="rounded-5 mb-1 mx-3" width="90" height="60"
+                        alt="Kebab" title="Kebab"></a>
+                <a href="#noodles">
+                    <img src="img/Noodles-Vegetarian-pulled-noodles-lead-more-sat.jpg" class="rounded-5 mb-1 mx-3"
+                        width="90" height="60" alt="Noodles" title="Noodles"></a>
+                <a href="#japanese">
+                    <img src="img/Sushi-place.jpg" class="rounded-5 mb-1 mx-3" width="90" height="60" alt="Sushi"
+                        title="Japanese"></a>
+                <a href="#desserts">
+                    <img src="img/Donuts-with-chocolate-glaze-500x500.jpg" class="rounded-5 mb-1 mx-3" width="90"
+                        height="60" alt="Donuts" title="Desserts"></a>
+
+            </div>
+            <hr class="text-secondary">
+        </div>
+        <!-- Choieces ROW END -->
+
+        <!-- Choieces Column  -->
+        <div class="position-fixed d-block d-sm-none z-2" style="width: 100px; top: 170px; right: -25px;">
+            <div class="choices d-flex flex-column">
+                <a href="#burger">
+                    <img src="img/Burger-da0de78-jumbo.jpg" class="rounded-5 mb-3" width="70" height="50" alt="Burger"
+                        title="Burger"></a>
+                <a href="#friedChicken">
+                    <img src="img/Fried-Chicken.jpg" class="rounded-5 mb-3" width="70" height="50" alt="Fried-Chciken"
+                        title="Fried Chicken"></a>
+
+                <a href="#pizza">
+                    <img src="img/Pizza-049623668c15b2e.jpg" class="rounded-5 mb-3" width="70" height="50" alt="Pizza"
+                        title="Pizza"></a>
+                <a href="#kebab">
+                    <img src="img/Kebab-shish-kebab-20.jpg" class="rounded-5 mb-3" width="70" height="50" alt="Kebab"
+                        title="Kebab"></a>
+                <a href="#noodles">
+                    <img src="img/Noodles-Vegetarian-pulled-noodles-lead-more-sat.jpg" class="rounded-5 mb-3" width="70"
+                        height="50" alt="Noodles" title="Noodles"></a>
+                <a href="#japanese">
+                    <img src="img/Sushi-place.jpg" class="rounded-5 mb-3" width="70" height="50" alt="Sushi"
+                        title="Japanese"></a>
+                <a href="#desserts">
+                    <img src="img/Donuts-with-chocolate-glaze-500x500.jpg" class="rounded-5 mb-3" width="70" height="50"
+                        alt="Donuts" title="Desserts"></a>
+
+            </div>
+        </div>
+        <!-- Choieces Column END -->
+
+
+        <!-- MENU START -->
+        <section id="menu">
+            <h1 class="text-center my-5">
+                <a href="#menu" class="text-decoration-none link-warning"
+                    style="font-size: 58px; font-family:fantasy; letter-spacing: 10px;">
+                    MENU
+                </a>
+            </h1>
+
+            <!-- Burger Section -->
+            <section id="burger" class="mt-5">
+                <h1 class="text-center text-warning my-5">BURGER</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/old-school-Classic-Burger-MARIOSBurgers-MJ6280-25.7.2020-online.png"
+                            class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Old School</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/cheeseburger-1200.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Cheese Burger</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/onion-burger_Mini-Crispy-Onion-Rings_1200x800.webp" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Onion Town</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/BBQ-Ranch-Turkey-Smash-Burger-.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Smash BBQ</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Jalapeno-sauce-1-of-1-13.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Spicy Jalapeno</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/double-double_top.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Double Trouble</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Burger Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Fried-Chicken Section -->
+            <section id="friedChicken" class="mt-5">
+                <h1 class="text-center text-warning my-5">FRIED CHICKEN</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/spicy-mayo-crispychickensandwich_1206x709.webp" class="card-img-top" height="200"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Spicy Mayo</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Big-Bite-Fried-Chicken-SandwichesIMG_1116-760x1140.jpg" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Big Bite</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/NashvilleHotChicken-VictorProtasio-01-83231777673a434fa85b8f0ef524b4c9.jpg"
+                            class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Nashville Hot</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/crispy-chicken-sandwich-no-text-square-480x270.webp" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chicken Crispy</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/triple-dipped-fried-chicken-beauty-4x3-3961ac838ddd41958e7cb9f49376cd68.jpg"
+                            class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Triple Dipped</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/ChickenBox_large_crop_center.webp" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Snack Box</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Fried-Chicken Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Pizza Section -->
+            <section id="pizza" class="mt-5">
+                <h1 class="text-center text-warning my-5">PIZZA</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/MARGHERITA_1200x.webp" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Margherita</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Pepperoni-Pizza-Recipe-14.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Pepperoni</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/cheese-lovers-images.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Cheese Lovers</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Chicken-ranchimages.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chicken Ranch</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Sea-ranch0istockphoto-2170805924-612x612.jpg" class="card-img-top" height="200"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Sea Ranch</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/BBQ-Chicken-Pizza-SQUARE.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chicken BBQ</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Pizza Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Kebab Section -->
+            <section id="kebab" class="mt-5">
+                <h1 class="text-center text-warning my-5">KEBAB</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Kebab-shish-kebab-20.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Kebab Shish</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Kufta-EXPS_FT24_277629_JR_1001_7.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Kufta</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Mix-kebab-greel-meat-adana-kebab-fried-tasty-lamp-2346818853.jpg"
+                            class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Kebab Mix</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Kebab-Roll-4-600_400.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Kebab Roll</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Tacos-Kebab.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Kebab Tacos</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Donor-Kebab-1-1024x683.webp" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Donor Kebab</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Kebab Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Noodles Section -->
+            <section id="noodles" class="mt-5">
+
+                <h1 class="text-center text-warning my-5">NOODLES</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Noodles-Vegetarian-pulled-noodles-lead-more-sat.jpg" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Vegy Noodles</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Chinese-Noodles-8-scaled.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chinese Noodles</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/chicken-udon-noodles05.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chicken Noodles</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/white-Mushroom-Spaghetti-Pasta-FQ-3-4518.jpg" class="card-img-top" height="200"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Mushroom White Noodles</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!-- Noodles Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Japanese Section -->
+            <section id="japanese" class="mt-5">
+                <h1 class="text-center text-warning my-5">JAPANESE</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/ikameshi-5c8b88ff-9960-4f1b-a98c-17dac5ababc-resize-750.jpeg" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Takoyaki</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Gameni-images.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Gameni</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Sushi-place.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Sushi</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-3 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/takoyaki-recipe-4790w.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Takoyaki</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+            <!-- Japnese Section END -->
+
+            <hr class="text-secondary mb-5">
+
+            <!-- Desserets Section -->
+            <section id="desserts" class="mt-5">
+                <h1 class="text-center text-warning my-5">DESSERTS</h1>
+
+                <div class="container d-flex flex-wrap justify-content-around">
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/molten-lava-cake-featured.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Molten Cake</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Cheesecake-vicky-wasik-18-89991c64ba544e19bc05c774c499438c.jpg"
+                            class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Cheese-Cake</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/donuts-on-pastel-blue-background-1400.jpeg" class="card-img-top" height="200"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Donuts</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/waffle-recipe-1-16-500x500.jpg" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Waffles</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/brownies-recipe.webp" class="card-img-top" height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Chocolate Brownies</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card bg-black mx-5 mb-5 border-dark" style="width: 18rem;">
+                        <img src="img/Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg" class="card-img-top"
+                            height="200" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-light text-center">Apple Pie</h5>
+                            <p class="card-text text-secondary fw-semibold">Some quick example text to build on the card
+                                title and make up the
+                                bulk of the card's content.</p>
+                            <a href="#" class="btn btn-warning mt-3">Add To Cart</a>
+                        </div>
+                    </div>
+
+                </div>
+                <hr class="text-secondary mb-5">
+            </section>
+            <!-- Desserts Section END -->
+        </section>
+
+    </main>
+    <!-- Main END -->
+
+    <!-- Footer -->
+    <footer class="">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <ul class="text-start" style="list-style: none;">
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">About</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Branches</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Privacy &
+                                Policy</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Terms &
+                                Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="text-start" style="list-style: none;">
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Log In</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Sign Up</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Careers</a></li>
+                        <li><a href="#" class="link-light link-opacity-50-hover text-decoration-none">Franchise
+                                Request</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="text-start w-100 h-100 align-content-end" style="list-style: none;">
+                        <h2 class="text-warning">Hot Line</h2>
+                        <a href="tel:0123456" class="link-danger mb-2 mx-2 fs-3 text-decoration-none">0123456</a>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="d-flex h-100 align-items-center " style="list-style: none;">
+                        <a href="https://www.facebook.com/" class="mx-2"><i
+                                class="bi bi-facebook fs-2 link-secondary link-opacity-25-hover"></i></a>
+                        <a href="https://www.instagram.com/" class="mx-2"><i
+                                class="bi bi-instagram fs-2 link-secondary link-opacity-25-hover"></i></a>
+                        <a href="https://x.com/" class="mx-2"><i
+                                class="bi bi-twitter-x fs-2 link-secondary link-opacity-25-hover"></i></a>
+                        <a href="https://www.linkedin.com/" class="mx-2"><i
+                                class="bi bi-linkedin fs-2 link-secondary link-opacity-25-hover"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="d-block-flex position-fixed z-3 " style="bottom: 5px; right: 4px;">
+            <i class="bi bi-arrow-up-circle-fill text-warning fs-2"></i>
+        </a>
+        <div class="text-center text-light fw-semibold mt-3">
+            <p>All Copyrights Reserved &copy;<a
+                    href="https://www.linkedin.com/in/ahmed-elromaissy-455408228/">ROMAISSY</a></p>
+        </div>
+
+    </footer>
+    <!-- Footer END -->
+
+    <!-- Java -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Java -->
+</body>
+
+</html>
